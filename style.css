@@ -40,7 +40,7 @@ body {
   flex-grow: 1;
 }
 
-.main__task-row {
+.adding-element__task {
   display: flex;
 }
 
