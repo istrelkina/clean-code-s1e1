@@ -12,7 +12,7 @@ body {
   text-align: right;
 }
 
-.header img {
+.header__image {
   width: 100%;
 }
 
@@ -34,7 +34,9 @@ body {
   margin: 0 auto 0;
 }
 
-.task {
+.main__task-title,
+.adding-element__input,
+.main__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -85,7 +87,8 @@ h3,
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.adding-element__input,
+.main__task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -98,7 +101,8 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.adding-element__input:focus,
+.main__task:focus {
   color: #333;
 }
 
@@ -108,7 +112,7 @@ input[type="text"]:focus {
   margin: 0 0 20px;
 }
 
-#new-task {
+.adding-element__input {
   width: 318px;
 }
 
