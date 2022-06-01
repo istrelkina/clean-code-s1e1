@@ -76,7 +76,7 @@ button{
 .main__btn-add:hover,
 .main__btn-edit:hover,
 .main__btn-delete:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 /* Heading */
@@ -99,7 +99,7 @@ button{
   height: 21px;
   padding: 0 9px;
   border: 1px solid #ddd;
-  background: #FFF;
+  background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
