@@ -80,7 +80,7 @@ button{
 }
 
 /* Heading */
-h3,
+.main__title,
 .adding-element__title {
   color: #333;
   font-weight: 700;
